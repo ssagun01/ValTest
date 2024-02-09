@@ -72,13 +72,13 @@ export default function Page() {
         </>
       ) : (
         <>
-          {noCount < 5 && (
+          {noCount < 8 && (
               <img
               className="h-[230px] rounded-lg shadow-lg"
               src="https://gifdb.com/images/high/cute-Love-bear-roses-ou7zho5oosxnpo6k.gif"
             />
             )}
-          {noCount >= 5 && (
+          {noCount >= 8 && (
               <img
               className="h-[230px] rounded-lg shadow-lg"
               src="https://media1.tenor.com/m/oOEf4JYtCV0AAAAC/spongebob-squarepants-begging.gif"
