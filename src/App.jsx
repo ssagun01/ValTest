@@ -72,10 +72,18 @@ export default function Page() {
         </>
       ) : (
         <>
-          <img
-            className="h-[230px] rounded-lg shadow-lg"
-            src="https://gifdb.com/images/high/cute-Love-bear-roses-ou7zho5oosxnpo6k.gif"
-          />
+          {noCount < 5 && (
+              <img
+              className="h-[230px] rounded-lg shadow-lg"
+              src="https://gifdb.com/images/high/cute-Love-bear-roses-ou7zho5oosxnpo6k.gif"
+            />
+            )}
+          {noCount >= 5 && (
+              <img
+              className="h-[230px] rounded-lg shadow-lg"
+              src="https://media1.tenor.com/m/oOEf4JYtCV0AAAAC/spongebob-squarepants-begging.gif"
+            />
+            )}
           <h1 className="text-4xl md:text-6xl my-4 text-center">
             Will you be my Valentine?
           </h1>
