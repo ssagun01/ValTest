@@ -8,7 +8,7 @@ export default function Page() {
 
   const getYesButtonText = () => {
     if (noCount >= 15) {
-      return "YES\n(Choice is an illusion)";
+      return "YES (Choice is an illusion)";
     } else {
       return "Yes";
     }
